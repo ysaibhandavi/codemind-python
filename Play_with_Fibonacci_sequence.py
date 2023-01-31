@@ -1,0 +1,11 @@
+n=int(input())
+s1=0
+s2=1
+c=0
+print(s1,end=" ")
+while c<=(n-2):
+ s3=s1+s2
+ print(s3,end=" ")
+ s2=s1
+ s1=s3
+ c+=1
