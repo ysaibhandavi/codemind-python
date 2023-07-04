@@ -1,0 +1,5 @@
+n,m=map(int,input().split())
+n=list(map(int,input().split()))
+m=list(map(int,input().split()))
+c=list(set(n)^set(m))
+print(len(c))
