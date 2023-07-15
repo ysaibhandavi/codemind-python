@@ -1,16 +1,14 @@
 n=int(input())
 l=list(map(int,input().split()))
 c=[]
-e=[]
-for i in l:
-    m=list(str(i))
-    c.append(len(m))
-d=max(c)
+p=[]
 for i in l:
     i=list(str(i))
-    if(len(i)==d):
+    c.append(len(i))
+m=max(c)
+for i in l:
+    i=list(str(i))
+    if(len(i)==m):
         i="".join(i)
-        e.append(i)
-print(*e)
-    
-    
+        p.append(i)
+print(*p)
