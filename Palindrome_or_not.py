@@ -1,11 +1,8 @@
-n=input().lower()
-b=""
-for i in n:
-    if i.isalnum():
-        b+=i
-if b==b[::-1]:
-    print("True")
+n=input()
+x=n.lower()
+m=x[::-1]
+if x==m:
+    print('True')
 else:
-    print("False")
-    
+    print('False')
     
