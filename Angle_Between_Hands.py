@@ -1,0 +1,9 @@
+a=input().split(':')
+a=list(a)
+b=int(a[0])
+c=int(a[-1])
+a=abs((30*b)-(11/2)*c)
+if(a<180):
+    print(a)
+else:
+    print(360-a)
