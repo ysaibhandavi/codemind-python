@@ -1,6 +1,6 @@
-t=int(input())
-for i in range(t):
-    n=int(input())
+n=int(input())
+for i in range(n):
+    t=int(input())
     l=list(map(int,input().split()))
     k=sorted(l)
     if(k==l):
