@@ -2,8 +2,8 @@ a=input().split(':')
 a=list(a)
 b=int(a[0])
 c=int(a[-1])
-a=abs((30*b)-(11/2)*c)
-if(a<180):
-    print(a)
+ang=abs((b*30)-(c*(11/2)))
+if(ang>180):
+    print(360-ang)
 else:
-    print(360-a)
+    print(ang)
