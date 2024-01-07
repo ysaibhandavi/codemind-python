@@ -1,5 +1,6 @@
-string=input()
-if(string==string[::-1]):
-      print("True")
+n=input()
+s=n[::-1]
+if n==s:
+    print("True")
 else:
-      print("False")
+    print("False")
